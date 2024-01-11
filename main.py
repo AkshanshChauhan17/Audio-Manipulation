@@ -9,6 +9,4 @@ Xdb = librosa.amplitude_to_db(abs(X))
 plt.figure(figsize=(10, 5))
 librosa.display.specshow(Xdb, sr=sr, x_axis='time', y_axis='hz')
 plt.colorbar()
-plt.savefig('output.jpg')
-
-print(x, sr, X, Xdb)
+plt.savefig('color.jpg')
